@@ -39,7 +39,7 @@ div {                             /* geldt voor div */
 /* Indeling en opmaak voor alle pagina's */
 
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
+  width: 1500px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 10 pixels marge,
                                      links en rechts marge gelijk verdeeld (gecentreerd) */
 }
@@ -122,14 +122,22 @@ nav li a.active {
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
 .item-plaatje {
-  float: left;
-  width: 250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+   /* The image used */
+    background-color: #ffffff80; /* Used if the image is unavailable */
 }
 
 .item-tekst {
   float: right;
   width: 450px;
+}
+body{
+  background-image: url(afbeeldingen/voedsel\ .jpeg);
+  background-size: cover;
+
+}
+
+background-image{
+  filter: opacity(30%)
 }
 
 /************************* SUBPAGINA *************************/
