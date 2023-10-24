@@ -28,7 +28,8 @@ html, body {                      /* geldt voor html en body */
 }  
 
 div {                             /* geldt voor div */
-  overflow: hidden;               /* zorgt dat een <div> de hoogte krijgt van wat erin zit
+  overflow: hidden; 
+               /* zorgt dat een <div> de hoogte krijgt van wat erin zit
                                      (anders tellen de floats erin niet mee voor de hoogte
                                      en wordt dus wel eens hoogte 0) */
 }
@@ -68,12 +69,13 @@ img {
 }
 
 a {
-  color: rgb(169, 211, 228);
+  color: rgb(0, 0, 0);
   text-decoration: none;
+  font-family: comic sans ms, cursive;
 }
 
 a:hover {                         /* <a> als je er met de muis op staat */
-  text-decoration: underline;
+  
 }
 
 .smalltext {
@@ -108,6 +110,7 @@ nav li a {
 
 nav li a:hover {
   background-color: #c3dde2;
+  text-decoration: underline;
 }
 
 nav li a.active {
@@ -127,18 +130,22 @@ nav li a.active {
 }
 
 .item-tekst {
-  float: right;
-  width: 450px;
+  border: 2px dashed black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: ;
 }
-body{
-  background-image: url(afbeeldingen/voedsel\ .jpeg);
-  background-size: cover;
+body {
+  background-color: rgb(191, 218, 223);
+  background-size: contain;
 
 }
 
-background-image{
-  filter: opacity(30%)
-}
+
+
+
 
 /************************* SUBPAGINA *************************/
 
