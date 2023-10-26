@@ -19,7 +19,7 @@
 
 * {                               /* geldt voor alles */
   box-sizing: border-box;         /* zorg dat border meetelt bij de width en height van boxen */
-  margin: 0px;                    /* standaard marge 0 pixels */
+  margin: 2px;                  /* standaard marge 0 pixels */
 }
 
 html, body {                      /* geldt voor html en body */
@@ -28,7 +28,7 @@ html, body {                      /* geldt voor html en body */
 }  
 
 div {                             /* geldt voor div */
-  overflow: hidden; 
+  overflow: hidden;
                /* zorgt dat een <div> de hoogte krijgt van wat erin zit
                                      (anders tellen de floats erin niet mee voor de hoogte
                                      en wordt dus wel eens hoogte 0) */
@@ -93,7 +93,7 @@ nav ul {                        /* <ul> die child is van <nav> */
   padding: 0;
   background-color: #6997b0;
   overflow: hidden;
-  border-radius: 10px
+  border-radius: 10px;
 }
 
 nav ul li {                     /* <li> die child is van <ul> die op zijn beurt child is van <nav> */
@@ -111,10 +111,12 @@ nav li a {
 nav li a:hover {
   background-color: #c3dde2;
   text-decoration: underline;
+  border-radius: 10px; 
 }
 
 nav li a.active {
   background-color: rgb(35, 99, 140);
+  border-radius: 10px; 
 }
 
 
@@ -130,21 +132,47 @@ nav li a.active {
 }
 
 .item-tekst {
-  border: 2px dashed black;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 30px;
   background-color: ;
+  width: 100px;
+  height: 150px;
+
+  
 }
 body {
-  background-color: rgb(191, 218, 223);
+  background-color: rgba(191, 218, 223, 0.462);
   background-size: contain;
+  position: relative;
+  z-index: -2;
 
 }
 
+.homepage-grey {
+  width: 20%;
+  height: 80%;
+  float: left;
+  position: absolute;
+  z-index: -1;
+  border-radius: 10px;
 
+}
 
+.tekst-naast-plaatje {
+  border: 2px dashed black;
+  float: right;
+  margin-left: 1000px;
+  margin-bottom: 200px;
+  border-radius: 5px;
+}
+
+.item-naast-plaatje {
+  border: 2px dashed black;
+  margin-left: 500px
+}
 
 
 /************************* SUBPAGINA *************************/
