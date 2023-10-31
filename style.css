@@ -97,7 +97,7 @@ nav ul {                        /* <ul> die child is van <nav> */
 }
 
 nav ul li {                     /* <li> die child is van <ul> die op zijn beurt child is van <nav> */
-  float: left;
+  float: left
 }
 
 nav li a {
@@ -153,7 +153,7 @@ body {
 
 .homepage-grey {
   width: 20%;
-  height: 80%;
+  height: 75%;
   float: left;
   position: absolute;
   z-index: -1;
@@ -162,7 +162,7 @@ body {
 }
 
 .tekst-naast-plaatje {
-  border: 2px dashed black;
+  border: 5px double black;
   float: right;
   margin-left: 1000px;
   margin-bottom: 200px;
@@ -171,7 +171,17 @@ body {
 
 .item-naast-plaatje {
   border: 2px dashed black;
-  margin-left: 500px
+  margin-left: 500px;
+  border-radius: 5px;
+}
+
+.tekst-onder-plaatje {
+  border: 2px dashed black;
+  float: bottom;
+  margin-top: 500px;
+  border-radius: 5px;
+  position: relative;
+  
 }
 
 
