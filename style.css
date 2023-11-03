@@ -53,14 +53,18 @@ main {
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
 
-h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
-  margin: 10px 0px;
+h1, h3 {                      /* geldt voor h1 en h2 en h3 */
+  margin:  0px;
   text-align: center;             /* tekst centreren */
   color: (169, 211, 228);
 } 
-
+h2 {
+  margin-top: 0px;
+  text-align: center;
+  color: rgb(rgb(135, 135, 213))
+}
 p {
-  margin: 10px 0px;
+  margin: 0px;
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
 
@@ -137,7 +141,6 @@ nav li a.active {
   margin-bottom: 0px;
   margin-right: 0px;
   margin-left: 30px;
-  background-color: ;
   width: 100px;
   height: 150px;
 
@@ -162,16 +165,21 @@ body {
 }
 
 .tekst-naast-plaatje {
-  border: 5px double black;
-  float: right;
-  margin-left: 1000px;
-  margin-bottom: 200px;
+  border: 5px solid white;
+  border-radius: 20px;
+  background-color: rgb(198, 167, 140);
+  padding: 10px;
+  margin-left: 500px;
+  margin-right: 350px;
+  margin-top: 0px;
+  margin-bottom: 300px;
   border-radius: 5px;
 }
 
 .item-naast-plaatje {
   border: 2px dashed black;
   margin-left: 500px;
+  margin-top: 0px;
   border-radius: 5px;
 }
 
