@@ -95,7 +95,7 @@ nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: auto;
   padding: 0;
-  background-color: #6997b0;
+  background-color: #6f9db5;
   overflow: hidden;
   border-radius: 10px;
 }
@@ -148,6 +148,7 @@ nav li a.active {
 }
 body {
   background-color: rgba(191, 218, 223, 0.462);
+  background-image: linear-gradient(to right, rgba(58, 119, 168, 0.738) , rgba(206, 216, 217, 0.395));
   background-size: contain;
   position: relative;
   z-index: -2;
@@ -212,7 +213,13 @@ body {
 
 .shadow {
   color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(145, 116, 203), 0 0 5px rgb(126, 135, 186);
+}
+
+.schijf-plaatje {
+  border: 10px solid orange;
+  padding: 15px;
+  border-image: url(https://slimetenenleven.be/wp-content/uploads/2018/04/schijf-van-5-e1524680879386.jpg) 30 round
 }
 
 
