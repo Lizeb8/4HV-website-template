@@ -23,7 +23,7 @@
 }
 
 html, body {                      /* geldt voor html en body */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
+  background-color: #eeeeee00;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -137,12 +137,13 @@ nav li a.active {
 
 .item-tekst {
   border-radius: 5px;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom: 0px;
   margin-right: 0px;
   margin-left: 30px;
   width: 100px;
   height: 150px;
+  display: inline;
 
   
 }
@@ -175,6 +176,7 @@ body {
   margin-top: 0px;
   margin-bottom: 300px;
   border-radius: 5px;
+  display: block;
 }
 
 .item-naast-plaatje {
@@ -220,6 +222,18 @@ body {
   border: 10px solid orange;
   padding: 15px;
   border-image: url(https://slimetenenleven.be/wp-content/uploads/2018/04/schijf-van-5-e1524680879386.jpg) 30 round
+}
+
+.titel-home {
+  font-family: cursive;
+
+}
+
+.tekst-blok {
+  margin-top: 15px;
+  float: left;
+  width: 200px;
+  margin-right: 1200px;
 }
 
 
