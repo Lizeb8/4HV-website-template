@@ -67,6 +67,7 @@ h2 {
 
 h2 {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-style: solid;
 }
 p {
   margin: 0px;
@@ -101,10 +102,11 @@ nav ul {                        /* <ul> die child is van <nav> */
   margin: auto;
   padding: 5px;
   background-color: #6f9db5;
-  
+  float:none
   overflow: hidden;
   border-radius: 10px;
   text-align: center;
+  
   
 }
 
@@ -187,7 +189,16 @@ body {
   margin-top: 0px;
   margin-bottom: 300px;
   border-radius: 5px;
-  display: block;
+  
+}
+
+#plaatje-home {
+  width: 400px;
+  float: right;
+  
+  
+  
+
 }
 
 .item-naast-plaatje {
